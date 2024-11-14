@@ -1,3 +1,3 @@
-import { DayOne } from './2023/day-1';
+import { solveDay01 } from './Day01/solution';
 
-DayOne();
+solveDay01();

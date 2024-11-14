@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-export function DayOne(): void {
+export function solveDay01(): void {
   console.log('-- Day 1: Trebuchet?! --');
 
   const input = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8');
