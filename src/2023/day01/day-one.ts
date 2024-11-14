@@ -14,9 +14,9 @@ export function DayOne(): void {
       .filter((char) => RegExp(/\d/).exec(char))
       .join('');
 
-    const joinedNumber = numberFromLine[0] + numberFromLine[numberFromLine.length - 1];
+    const joinedNumber = +(numberFromLine[0] + numberFromLine[numberFromLine.length - 1]);
 
-    return acc + Number(joinedNumber);
+    return acc + joinedNumber;
   }, 0);
 
   console.log('Answer part 1:', answer);
