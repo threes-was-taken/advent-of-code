@@ -27,13 +27,13 @@ import { solveDay25 } from './Day25/solution';
 import fs from 'node:fs';
 import path from 'node:path';
 
-console.log('-- Day 1:  --');
+console.log('-- Day 1: Historian Hysteria --');
 const inputPathDay01 = path.join(__dirname, 'Day01', 'input.txt');
 const inputDay01 = fs.readFileSync(inputPathDay01, 'utf-8').trim();
 
 solveDay01(inputDay01);
 
-console.log('-- Day 2:  --');
+console.log('-- Day 2: Red-Nosed Reports --');
 const inputPathDay02 = path.join(__dirname, 'Day02', 'input.txt');
 const inputDay02 = fs.readFileSync(inputPathDay02, 'utf-8').trim();
 solveDay02(inputDay02);
