@@ -1,4 +1,5 @@
 import { solveDay01 } from './Day01/solution';
+
 import { solveDay02 } from './Day02/solution';
 import { solveDay03 } from './Day03/solution';
 import { solveDay04 } from './Day04/solution';
@@ -23,79 +24,85 @@ import { solveDay22 } from './Day22/solution';
 import { solveDay23 } from './Day23/solution';
 import { solveDay24 } from './Day24/solution';
 import { solveDay25 } from './Day25/solution';
-
+import fs from 'node:fs';
+import path from 'node:path';
 
 console.log('-- Day 1:  --');
-solveDay01('Hello, World!');
+const inputPathDay01 = path.join(__dirname, 'Day01', 'input.txt');
+const inputDay01 = fs.readFileSync(inputPathDay01, 'utf-8').trim();
+
+solveDay01(inputDay01);
 
 console.log('-- Day 2:  --');
-// solveDay02('Hello, World!');
+const inputPathDay02 = path.join(__dirname, 'Day02', 'input.txt');
+const inputDay02 = fs.readFileSync(inputPathDay02, 'utf-8').trim();
+solveDay02(inputDay02);
 
-console.log('-- Day 3:  --');
+//console.log('-- Day 3:  --');
 // solveDay03('Hello, World!');
 
-console.log('-- Day 4:  --');
+//console.log('-- Day 4:  --');
 // solveDay04('Hello, World!');
 
-console.log('-- Day 5:  --');
+//console.log('-- Day 5:  --');
 // solveDay05('Hello, World!');
 
-console.log('-- Day 6:  --');
+//console.log('-- Day 6:  --');
 // solveDay06('Hello, World!');
 
-console.log('-- Day 7:  --');
+//console.log('-- Day 7:  --');
 // solveDay07('Hello, World!');
 
-console.log('-- Day 8:  --');
+//console.log('-- Day 8:  --');
 // solveDay08('Hello, World!');
 
-console.log('-- Day 9:  --');
+//console.log('-- Day 9:  --');
 // solveDay09('Hello, World!');
 
-console.log('-- Day 10:  --');
+//console.log('-- Day 10:  --');
 // solveDay10('Hello, World!');
 
-console.log('-- Day 11:  --');
+//console.log('-- Day 11:  --');
 // solveDay11('Hello, World!');
 
-console.log('-- Day 12:  --');
+//console.log('-- Day 12:  --');
 // solveDay12('Hello, World!');
 
-console.log('-- Day 13:  --');
+//console.log('-- Day 13:  --');
 // solveDay13('Hello, World!');
 
-console.log('-- Day 14:  --');
+//console.log('-- Day 14:  --');
 // solveDay14('Hello, World!');
 
-console.log('-- Day 15:  --');
+//console.log('-- Day 15:  --');
 // solveDay15('Hello, World!');
 
-console.log('-- Day 16:  --');
+//console.log('-- Day 16:  --');
 // solveDay16('Hello, World!');
 
-console.log('-- Day 17:  --');
+//console.log('-- Day 17:  --');
 // solveDay17('Hello, World!');
 
-console.log('-- Day 18:  --');
+//console.log('-- Day 18:  --');
 // solveDay18('Hello, World!');
 
-console.log('-- Day 19:  --');
+//console.log('-- Day 19:  --');
 // solveDay19('Hello, World!');
 
-console.log('-- Day 20:  --');
+//console.log('-- Day 20:  --');
 // solveDay20('Hello, World!');
 
-console.log('-- Day 21:  --');
+//console.log('-- Day 21:  --');
 // solveDay21('Hello, World!');
 
-console.log('-- Day 22:  --');
+//console.log('-- Day 22:  --');
 // solveDay22('Hello, World!');
 
-console.log('-- Day 23:  --');
+//console.log('-- Day 23:  --');
 // solveDay23('Hello, World!');
 
-console.log('-- Day 24:  --');
+//console.log('-- Day 24:  --');
 // solveDay24('Hello, World!');
 
-console.log('-- Day 25:  --');
+//console.log('-- Day 25:  --');
 // solveDay25('Hello, World!');
